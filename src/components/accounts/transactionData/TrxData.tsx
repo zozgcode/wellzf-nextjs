@@ -1,6 +1,6 @@
 export const SandraDavidTxData = [
   {
-    txName: "Trust",
+    txName: "Refund",
     whatUsed: "Deposit",
     amount: "+$2,500.00",
     date: "May 10, 2024",
