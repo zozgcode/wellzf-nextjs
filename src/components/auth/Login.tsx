@@ -35,11 +35,18 @@ export default function Login() {
     setLoading(false);
   };
 
+  const date = new Date();
+  const hour = date.getHours();
+
   return (
     <div className="">
       <Header />
       <div className="h-screen bg-white">
         <div className="pt-10">
+          <div className="px-4 mx-auto max-w-[300px] text-center text-xl font-bold">
+            {hour >= 12 ? (hour >= 17 ? <h2>Good Evening</h2> : <h2>Good Afternoon</h2>) : <h2>Good Morning</h2>}
+            <span className="font-normal text-base">Sign on to manage your accounts</span>
+          </div>
           {error && (
             <p className="text-[20px] my-4 text-center mx-auto max-w-[200px] flex items-center justify-center text-[#d71e28]">
               {error}
