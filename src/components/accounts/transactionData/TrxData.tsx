@@ -66,9 +66,15 @@ export const SandraDavidTxData = [
     date: "Jun 8, 2020",
   },
   {
-    txName: "Zelle Payment from Terry Lance",
+    txName: "Busch Agricultural Resources",
     whatUsed: "Deposit",
-    amount: "+$65,000.00",
-    date: "May 1, 2020",
+    amount: "+$15,000.00",
+    date: "May 1, 2019",
+  },
+  {
+    txName: "Payroll",
+    whatUsed: "Deposit",
+    amount: "+$70,000.00",
+    date: "Jan 1, 2018",
   },
 ];
