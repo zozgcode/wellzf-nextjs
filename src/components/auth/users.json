@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sandra David",
+      "profileImg": "",
+      "cardName": "Sandra David",
+      "username": "SandraDvd",
+      "password": "SandraDvd!39",
+      "checkingAmount": "800,000.00",
+      "checkingAccountNo": "...9998",
+      "createdOn": "5/14/2024 - M/D/Y"
+    }
+  ]
+}
